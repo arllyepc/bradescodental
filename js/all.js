@@ -1,0 +1,1 @@
+"use strict";var slide_hero=new Swiper(".slide-principal",{effect:"fade",autoplay:{delay:5e3,disableOnInteraction:!1}});

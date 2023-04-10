@@ -1,0 +1,16 @@
+header {
+	z-index: 2;
+	position: sticky;
+	.container {
+		padding-top: 2.4rem;
+		display: flex;
+		align-items: center;
+		gap: 3.2rem;
+		background-color: transparent;
+		.header__divider {
+			width: 0.2rem;
+			height: 7rem;
+			background-color: #fff;
+		}
+	}
+}

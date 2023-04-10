@@ -1,0 +1,410 @@
+/* BOTÕES */
+
+.btn-green-wicon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 14px 50px;
+	gap: 10px;
+
+	background: #1bb057;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 32px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	transition: all 0.3s ease-in-out;
+
+	max-width: 30rem;
+
+	color: #fbfbfb;
+
+	&:hover {
+		background: #0d7637;
+		box-shadow: none;
+	}
+}
+
+.btn-blue-noicon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 32px;
+
+	background: #1d73f2;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+
+	color: #fbfbfb;
+	transition: all 0.3s ease-in-out;
+
+	width: 100%;
+	&:hover {
+		background: #1355ae;
+	}
+}
+
+/* CARD GRANDE */
+
+.card-plans-lg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 12px 0px 0px;
+	gap: 24px;
+
+	width: 28.8rem;
+
+	background: #fbfbfb;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+
+	.card-plans-lg__text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+		color: #0a386b;
+		padding: 0 2.4rem;
+
+		h2 {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 33px;
+		}
+
+		.card-plans-lg__price-month {
+			p {
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 19px;
+			}
+
+			h3 {
+				font-weight: 700;
+				font-size: 40px;
+				line-height: 54px;
+
+				span {
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 22px;
+				}
+			}
+		}
+
+		.card-plans-lg__price-year {
+			p {
+				font-weight: 400;
+				font-size: 12x;
+				line-height: 19px;
+				span {
+					font-weight: 600;
+					font-size: 12px;
+					line-height: 16px;
+				}
+			}
+		}
+
+		.card-plans-lg__list {
+			p {
+				&:first-child {
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 19px;
+					margin-bottom: 0.8rem;
+				}
+
+				&:last-child {
+					font-weight: 700;
+					font-size: 14px;
+					line-height: 19px;
+					margin-top: 1.6rem;
+				}
+			}
+
+			ul {
+				margin-left: 1.6rem;
+				li {
+					font-weight: 400;
+					font-size: 12px;
+					line-height: 16px;
+				}
+			}
+		}
+
+		.card-plans-lg__prize {
+			p {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 22px;
+				&:last-child {
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 27px;
+				}
+			}
+		}
+	}
+	.card-plans-lg__footer {
+		background: #fbfbfb;
+		width: 100%;
+
+		border-top: 0.5px solid #0a386b;
+		display: flex;
+		padding: 1.6rem 0;
+		justify-content: center;
+		align-items: center;
+		border-radius: 0 0 10px 10px;
+		transition: all 0.3s ease-in-out;
+		cursor: pointer;
+		a {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 33px;
+
+			&:visited {
+				color: #0a386b;
+			}
+		}
+	}
+
+	&:hover {
+		.card-plans-lg__footer {
+			background: #0a386b;
+			width: 100%;
+
+			border-top: 0.5px solid #0a386b;
+			display: flex;
+			padding: 1.6rem 0;
+			justify-content: center;
+			align-items: center;
+
+			a {
+				color: #fbfbfb;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 33px;
+
+				&:visited {
+					color: #fbfbfb;
+				}
+			}
+		}
+	}
+}
+
+/* CARD BENEFÍCIOS */
+
+.card-diffs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2.4rem;
+	width: 25.2rem;
+	gap: 1.6rem;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	background-color: #fbfbfb;
+	border-radius: 1.2rem;
+	color: #001a27;
+	transition: all 0.3s ease-in-out;
+	.card-diffs__text {
+		text-align: center;
+		h3 {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 0.8rem;
+		}
+
+		p {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+	&:hover {
+		filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+	}
+}
+
+.card-benefits {
+	width: 15.6rem;
+	background: #fbfbfb;
+	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.4));
+	border-radius: 8px;
+
+	.card-benefits__image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card-benefits__footer {
+		transition: all 0.2s ease-in-out;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 8px;
+		border-radius: 0 0 8px 8px;
+		background-color: #1ccae8;
+		p {
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 14px;
+			color: #ffffff;
+			span {
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 19px;
+			}
+		}
+	}
+
+	&:hover {
+		filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+		.card-benefits__footer {
+			background: #159eb4;
+		}
+	}
+}
+
+.card-phone-consultor {
+	background: #fbfbfb;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 2.4rem;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+
+	color: #0d7637;
+	width: 34.5rem;
+	transition: all 0.2s ease-in-out;
+
+	p {
+		&:not(:last-of-type) {
+			margin-bottom: 1.6rem;
+		}
+	}
+
+	svg {
+		margin-top: 1.6rem;
+
+		g {
+			path {
+				transition: fill 0.2s ease-in;
+			}
+		}
+	}
+
+	&:hover {
+		background: #0d7637;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+		color: #fff;
+
+		svg {
+			path {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+.card-empresa {
+	width: 34.5rem;
+
+	background: #ffffff;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 10.622px;
+	color: #0d7637;
+
+	.card-empresa__text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 2.4rem 2.4rem 0 2.4rem;
+		h2 {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 33px;
+			margin-bottom: 0.8rem;
+		}
+
+		.card-empresa__price-month {
+			display: flex;
+			flex-direction: column;
+			p {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 22px;
+			}
+
+			h3 {
+				font-weight: 700;
+				font-size: 44px;
+				line-height: 60px;
+			}
+		}
+	}
+
+	.card-empresa__footer {
+		background: #fbfbfb;
+		width: 100%;
+
+		border-top: 0.5px solid #0d7637;
+		display: flex;
+		padding: 1.6rem 0;
+		justify-content: center;
+		align-items: center;
+		border-radius: 0 0 10px 10px;
+		transition: all 0.3s ease-in-out;
+		margin-top: 2.4rem;
+		cursor: pointer;
+		a {
+			font-weight: 700;
+			font-size: 24px;
+			line-height: 33px;
+
+			&:visited {
+				color: #0d7637;
+			}
+		}
+	}
+	&:hover {
+		.card-empresa__footer {
+			background: #0d7637;
+			width: 100%;
+
+			border-top: 0.5px solid #0d7637;
+			display: flex;
+			padding: 1.6rem 0;
+			justify-content: center;
+			align-items: center;
+
+			a {
+				color: #fbfbfb;
+				font-weight: 700;
+				font-size: 24px;
+				line-height: 33px;
+
+				&:visited {
+					color: #fbfbfb;
+				}
+			}
+		}
+	}
+}
