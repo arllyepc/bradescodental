@@ -1,1 +1,1 @@
-"use strict";var slide_hero=new Swiper(".slide-principal",{effect:"fade",autoplay:{delay:5e3,disableOnInteraction:!1}});
+"use strict";var slide_hero=new Swiper(".slide-principal",{effect:"fade",autoplay:{delay:5e3,disableOnInteraction:!1}}),slide_plans=new Swiper(".slide-plans",{slidesPerView:4,spaceBetween:30,pagination:{el:".swiper-pagination",clickable:!0},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},grabCursor:!0,breakpoints:{320:{slidesPerView:1,spaceBetween:10},480:{slidesPerView:1,spaceBetween:10},640:{slidesPerView:4,spaceBetween:10}}});
