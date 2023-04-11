@@ -683,3 +683,39 @@ header .container .header__divider {
     background: url(../img/slide-02-mobile.png) no-repeat center center;
   }
 }
+
+.s-plans-personal {
+  background: #f0f5ff;
+}
+.s-plans-personal .container {
+  padding-top: 6rem;
+}
+.s-plans-personal .container .s-plans-personal__title {
+  margin-bottom: 3.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+.s-plans-personal .container .s-plans-personal__title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #0a386b;
+}
+.s-plans-personal .container .s-plans-personal__title a {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #07454a;
+}
+.s-plans-personal .container .s-plans-personal__title a:hover {
+  -webkit-filter: brightness(1.8);
+  filter: brightness(1.8);
+}

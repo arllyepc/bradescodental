@@ -169,4 +169,32 @@
 	}
 }
 
+.s-plans-personal {
+	background: #f0f5ff;
+	.container {
+		padding-top: 6rem;
+		.s-plans-personal__title {
+			margin-bottom: 3.2rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			h2 {
+				font-weight: 700;
+				font-size: 48px;
+				line-height: 65px;
+				color: #0a386b;
+			}
+			a {
+				font-weight: 400;
+				font-size: 32px;
+				line-height: 44px;
 
+				color: #07454a;
+				&:hover {
+					filter: brightness(1.8);
+				}
+			}
+		}
+	}
+}
